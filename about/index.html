@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Scott Morgan | About</title>
+    <meta name="description" content="Personal webpage of Scott Morgan, Mathematics PhD Student at Cardiff University. Interested in Maths, Education, Science and all things tech.">
+
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+  <body>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/index.html">Scott<span>Morgan</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/research" title="Research">Research</a></li>
+          <li><a href="/teaching" title="Teaching">Teaching</a></li>
+          <li><a href="/about" title="About">About</a></li>
+          <li><a href="/contact" title="Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+      <div class="container">
+        <article role="article" class="page card">
+
+  <header class="post-header">
+    <h1 class="post-title">About Me</h1>
+  </header>
+
+  <div class="post-content">
+    
+      <p>I am currently a PhD student studying Mathematics at Cardiff University, working alongside my supervisor <a href="https://www.cardiff.ac.uk/people/view/98638-davies-chris" target="_blank">Dr. Chris Davies</a>. My research is based primarily in fluid dynamics, and in particular hydrodynamic stability theory. I am interested in laminar flow control techniques and have looked at oscillatory flows over rotating disks and flat plates. To find out more, visit my <a href="/research">research</a> pages or <a href="/contact">get in touch</a>!</p>
+	<p><br></p>
+      <p>I am also interested in computing for education, and have run several workshops and classes using Raspberry Pi computers, BBC MicroBit and Arduinos. I am a Raspberry Pi Certified Educator and am very interested in new and innovative ways to deliver computing to school students. If you would like to find out more, visit my <a href="/teaching">teaching</a> pages or <a href="/contact">get in touch</a>!</p>
+
+    <br/>
+
+    <h4>Collaborators &amp; Partners</h4>
+    <br/>
+    <ul>
+      <li style="width:20%; padding:2%; margin-left:40%;"><a href="https://www.cardiff.ac.uk/" target="_blank"><img src="/images/culogo.png"/></a></li>
+      <li style="width:30%; padding:2%; margin-top:2%; margin-left:34%;"><a href="https://ukfluids.net/" target="_blank"><img src="/images/ukfn.png"/></a></li>
+      <li style="width:30%; padding:2%; margin-top:2%; margin-left:34%;"><a href="https://www.siam.org/" target="_blank"><img src="/images/siamlogo.png"/></a></li>
+      <li style="width:30%; padding:2%; margin-left:34%; margin-top:4%;"><a href="https://ima.org.uk/" target="_blank"><img src="/images/ima_logo.png"/></a></li>
+    </ul>
+    <ul>
+      <li style="width:40%; padding:2%; margin-left:34%;"><a href="https://www1.bridgend.ac.uk/" target="_blank"><img src="/images/bcoll.png"/></a></li>
+      <li style="width:30%; padding:2%; margin-top:4%; margin-left:34%;"><a href="http://www.emotion-robotics.com/" target="_blank"><img src="/images/emotion.jpg"/></a></li>
+      <li style="width:30%; padding:2%; margin-top:-4%; margin-left:34%;"><a href="https://picymru.org.uk/" target="_blank"><img src="/images/picymru.png"/></a></li>
+      <li style="width:25%; padding:2%; margin-top:-5%; margin-left:37.5%;"><a href="https://www.raspberrypi.org/training/picademy/" target="_blank"><img src="/images/picademy.png"/></a></li>
+      <li style="width:25%; padding:2%; margin-top:2%; margin-left:37.5%;"><a href="https://www.biglearningcompany.com/" target="_blank"><img src="/images/blc.jpeg"/></a></li>
+      <li style="width:25%; padding:2%; margin-top:4%; margin-left:37.5%;"><a href="http://www.aspire2be.eu/" target="_blank"><img src="/images/aspire_logo.png"/></a></li>
+      <li style="width:25%; padding:2%; margin-top:4%; margin-left:37.5%;"><a href="https://www.stem.org.uk/stem-ambassadors/ambassadors" target="_blank"><img src="/images/stem.jpg"/></a></li>
+    </ul>
+
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/scott3142" target="_blank"><i class="icon icon-github"></i></a></li>
+  <li><a href="http://twitter.com/scottm3142" target="_blank"><i class="icon icon-twitter"></i></a></li>
+  <li><a href="http://www.linkedin.com/in/scott-morgan-57b87172" target="_blank"><i class="icon icon-linkedin"></i></a></li>
+</ul>
+    <p class="txt-medium-gray">
+      <small>&copy;2017 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>
