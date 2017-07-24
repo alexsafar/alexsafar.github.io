@@ -13,14 +13,15 @@
 
   <body>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', '', 'auto');
-  ga('send', 'pageview');
-</script>
+      ga('create', 'UA-49751789-4', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 
     <main>
       <header class="site-header">
@@ -59,21 +60,35 @@
 
     <p>I have a passion for education and firmly believe that teaching is one of the world's most important professions. I have experience teaching at all levels of education from primary school through to University and I am always interested in novel teaching methods and practises. Additionally I am also a fully qualified Tang Soo Do Karate Instructor, and have over 5 years experience in teaching and coaching martial arts.</p>
 
-    <p><br></p>
+    <br/>
 
     <p>CV | <a href="/cv/cv.pdf" target="_blank">pdf</a></p>
 
     <br/>
 
+    <h4>Courses</h4>
+      <ul style="list-style-type:disc">
+        <li>Current</em></li>
+          <ul>
+            <li>BTEC Computing Level 2: Computational Thinking | <em>Bridgend College</em> | <em>Course Notes (available soon)</em></li>
+            <li>BTEC Computing Level 2: Mobile Apps Development | <em>Bridgend College</em> | <em>Course Notes (available soon)</em></li>
+            <li>Introduction to Matlab | <em>Cardiff University</em> | <a href="https://github.com/Scott3142/ugmatlab" target="_blank">Course Notes</a></li>
+          </ul>
+        <li>Previous</em></li>
+          <ul>
+            <li>Foundations of Mathematics I (Tutorials) | <em>Cardiff University</em></li>
+            <li>Foundations of Mathematics II (Tutorials) | <em>Cardiff University</em></li>
+            <li>Elementary Differential Equations (Tutorials) | <em>Cardiff University</em></li>
+            <li>Analysis I (Tutorials) | <em>Cardiff University</em></li>
+            <li>Analysis II (Tutorials) | <em>Cardiff University</em></li>
+            <li>Computing Skills (Tutorials) | <em>Cardiff University</em></li>
+          </ul>
+      </ul>
+
+    <br/>
+
     <h4>Teaching Experience</h4>
     <ul>
-      <br/>
-      <li>Lead Instructor on Undergraduate MATLAB course | <em>Cardiff University (2016 - Present)</em></li>
-        <ul>
-          <br/>
-          <li><em>Devised, composed and delivered an 11-week intensive course titled An Introduction to MATLAB to final-year undergraduates and postgraduates. Responsible for all aspects of the course.</em> | <a href="https://github.com/Scott3142/ugmatlab" target="_blank">Course Notes</a></li>
-</em></li>
-        </ul>
       <br/>
       <li>Postgraduate Demonstrator | <em>Cardiff University (2014 - Present)</em></li>
         <ul>
@@ -147,7 +162,7 @@
   <div class="container">
     <ul class="social">
   <li><a href="http://github.com/scott3142" target="_blank"><i class="icon icon-github"></i></a></li>
-  <li><a href="http://twitter.com/scottm3142" target="_blank"><i class="icon icon-twitter"></i></a></li>
+  <li><a href="http://twitter.com/scott3142" target="_blank"><i class="icon icon-twitter"></i></a></li>
   <li><a href="http://www.linkedin.com/in/scott3142" target="_blank"><i class="icon icon-linkedin"></i></a></li>
 </ul>
     <p class="txt-medium-gray">
