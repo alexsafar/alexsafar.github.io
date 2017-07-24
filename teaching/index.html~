@@ -67,14 +67,14 @@
     <br/>
 
     <h4>Courses</h4>
-      <ul style="list-style-type:disc">
-        <li>Current</em></li>
+      <ul>
+        <h5>Current</h5>
           <ul>
             <li>BTEC Computing Level 2: Computational Thinking | <em>Bridgend College</em> | <em>Course Notes (available soon)</em></li>
             <li>BTEC Computing Level 2: Mobile Apps Development | <em>Bridgend College</em> | <em>Course Notes (available soon)</em></li>
             <li>Introduction to Matlab | <em>Cardiff University</em> | <a href="https://github.com/Scott3142/ugmatlab" target="_blank">Course Notes</a></li>
           </ul>
-        <li>Previous</em></li>
+        <h5>Previous</h5>
           <ul>
             <li>Foundations of Mathematics I (Tutorials) | <em>Cardiff University</em></li>
             <li>Foundations of Mathematics II (Tutorials) | <em>Cardiff University</em></li>
@@ -82,6 +82,7 @@
             <li>Analysis I (Tutorials) | <em>Cardiff University</em></li>
             <li>Analysis II (Tutorials) | <em>Cardiff University</em></li>
             <li>Computing Skills (Tutorials) | <em>Cardiff University</em></li>
+            <li>BTEC Computing Level 3: Project | <em>Bridgend College</em></li>
           </ul>
       </ul>
 
