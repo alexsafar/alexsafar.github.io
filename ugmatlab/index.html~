@@ -59,7 +59,7 @@
   <div class="post-content">
 
     <p>This page relates to the <em>Introduction to Matlab</em> course running at Cardiff School of Maths since 2016. Course notes and program files are currently available to download via the repository and will be updated as new material is added. Students are encouraged to download and edit the files as they see fit, but solutions should always be attempted first before peeking at the answers!</p>
-
+    <br/>
     <h4>Contact Info:</h4>
       <ul>
         <li>The main point of contact for all questions relating to this course will be <a href="scott3142.com/contact" target="_blank">Scott Morgan</a> (<a href="mailto:MorganSN@cardiff.ac.uk" target="_blank">MorganSN@cardiff.ac.uk</a>). Support will be provided via the Maths Support service which runs 11-1 every day in M/0.37.</li>
@@ -70,7 +70,7 @@
         <li><em>To be confirmed.</em></li>
       </ul>
     <br/>
-    <h4>Course Notes and Program Files:<a href="https://github.com/Scott3142/ugmatlab" target="_blank">Link</a></h4>
+    <h4>Course Notes and Program Files: <a href="https://github.com/Scott3142/ugmatlab" target="_blank">Link</a></h4>
       <ul>
         <li>The notes for this course are available on <a href="https://github.com/Scott3142/ugmatlab" target="_blank">github</a> where you will find main.pdf in the docs/ directory. The Matlab program files which relate to the tasks in the notes are included in the programs/ directory. These programs have been tested on Matlab R2016a but should work on all other versions of Matlab. They should also work on GNU Octave, but this is untested.</li>
       </ul>
