@@ -70,16 +70,17 @@
         <li><em>To be confirmed.</em></li>
       </ul>
     <br/>
-    <h4>Course Notes and Program Files: <a href="https://github.com/Scott3142/ugmatlab" target="_blank">Link</a></h4>
+    <h4>Course Notes and Program Files:</h4>
       <ul>
         <li>The notes for this course are available on <a href="https://github.com/Scott3142/ugmatlab" target="_blank">github</a> where you will find main.pdf in the docs/ directory. The Matlab program files which relate to the tasks in the notes are included in the programs/ directory. These programs have been tested on Matlab R2016a but should work on all other versions of Matlab. They should also work on GNU Octave, but this is untested.</li>
       </ul>
      <br/>
     <h4>Quick Links:</h4>
       <ul>
+        <li><a href="https://github.com/Scott3142/ugmatlab" target="_blank">Link to github repo</a></li>
+        <li><a href="https://github.com/Scott3142/ugmatlab/blob/master/docs/main.pdf" target="_blank">Notes (Download)</a></li>        
+        <li><a href="https://github.com/Scott3142/ugmatlab/zipball/master">Full Repo (Download)</a></li>        
         <li><a href="scott3142.com/contact" target="_blank">Contact Me</a></li>
-        <li><a href="https://github.com/Scott3142/ugmatlab/zipball/master">Full Repo (Download)</a></li>
-        <li><a href="https://github.com/Scott3142/ugmatlab/blob/master/docs/main.pdf">Notes (Download)</a></li>
       </ul>
       <br/>
         <h4>Course Tutors:</h4>
