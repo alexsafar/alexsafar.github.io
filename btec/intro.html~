@@ -131,7 +131,7 @@
         <li><em>To add: some notes on Github.</em></li>
       </ul>
       <br/>
-      <h4>Creating an Account on Gitter:</h4>
+      <h4 id="gitter">Creating an Account on Gitter:</h4>
       <ul>
         <li>Throughout this course, collaboration and conversation is highly encouraged, both between you and me and you and each other. To facilitate this, everyone enrolled will have the option to create an account and join a chat on <em>Gitter</em>. This is a great platform for dicussing programming and is free to download and easy to use.</li>
         <br/>
@@ -148,7 +148,7 @@
       <br/>
       <h4>Initial Diagnostic Task:</h4>
       <ul>
-        <li>In order for me to get a sense how each of you feel about this course from the outset, I have prepared a short series of questions which are available <a href="#" target="_blank">here</a>. Please answer these as honestly as you can, and don't worry if you can't answer them!</li>
+        <li>In order for me to get a sense how each of you feel about this course from the outset, I have prepared a short series of questions which are available <a href="#" target="_blank">here</a>. Please answer these as honestly as you can, and don't worry if you can't answer them! NB: You will need a Google account to complete this form.</li>
         <br/>
         <ul>
           <li><a href="#" target="_blank">Link to diagnostic task.</a></li>
