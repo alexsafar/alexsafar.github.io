@@ -110,7 +110,7 @@
         <ul style="list-style-type:disc">
           <li>Navigate to <a href="https://developer.android.com/studio/index.html" target="_blank">this link.</a></li>
           <li>Follow the instructions to download the software. Accept the terms and conditions.</li>
-          <li>Follow the setup wizard. Select default reccommended options.</li>
+          <li>Follow the setup wizard. Select default recommended options.</li>
           <li>On initial startup, follow the setup wizard for a Standard install.</li>
         </ul>
         <br/>
@@ -129,12 +129,12 @@
           <li>Tick the appropriate boxes on the following screen. Click Submit.</li>
         </ul>
         <br/>
-        <li><em>Feel free to have a browse around the pages on GitHub. Read the guide, start a project. Generally get a feel for it.</em></li>
+        <li><em>Feel free to have a browse around the pages on Github. Read the guide, start a project. Generally get a feel for it.</em></li>
       </ul>
       <br/>
       <h4 id="gitter">Creating an Account on Gitter:</h4>
       <ul>
-        <li>Throughout this course, collaboration and conversation is highly encouraged, both between you and me and you and each other. To facilitate this, everyone enrolled will have the option to create an account and join a chat on <em>Gitter</em>. This is a great platform for dicussing programming and is free to download and easy to use.</li>
+        <li>Throughout this course, collaboration and conversation is highly encouraged, both between you and me and you and each other. To facilitate this, everyone enrolled will have the option to create an account and join a chat on <em>Gitter</em>. This is a great platform for discussing programming and is free to download and easy to use.</li>
         <br/>
         <li>To create an account on your personal machine follow these steps:</li>
         <br/>
@@ -165,7 +165,7 @@ NB: You will need a Google account to complete this form.</li>
           <li><a href="/btec/notebooks/lesson0.ipynb">Download example notebook</a></li>
           <li>Save downloaded lesson0.ipynb in a folder of your choice.</li>
           <li>Open a jupyter notebook following the instructions above.</li>
-          <li>Naviagte to the file you just downloaded and open it.</li>
+          <li>Navigate to the file you just downloaded and open it.</li>
           <li>Follow the instructions</li>
         </ul>
       <br/>
