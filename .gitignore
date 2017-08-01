@@ -1,0 +1,14 @@
+#autosave files
+*~
+
+#latex build files
+*.log
+*.aux
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+
+#personal files
+
