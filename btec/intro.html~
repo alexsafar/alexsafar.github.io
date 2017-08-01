@@ -159,7 +159,7 @@ NB: You will need a Google account to complete this form.</li>
       <br/>
       <h4>Playtime!</h4>
       <ul>
-        <li>From now until the end of the class, you are free to play with Python and the Jupyter notebook and see what you can make it do. I have prepared an example notebook (<!--<a href="https://github.com/Scott3142/btec/intro/notebooks/master/intro.ipynb">download here</a>-->add link) which gives an overview of some features. There are also some great tutorials online, some of which I've highlighted below:</li>
+        <li>From now until the end of the class, you are free to play with Python and the Jupyter notebook and see what you can make it do. I have prepared an example notebook (<a href="https://github.com/Scott3142/btec/intro/notebooks/master/intro.ipynb">download here</a> which gives an overview of some features. There are also some great tutorials online, some of which I've highlighted below:</li>
         <br/>
         <ul style="list-style-type:disc">
           <li><a href="http://vknight.org/cfm/" target="_blank">vknight.org</a></li>
