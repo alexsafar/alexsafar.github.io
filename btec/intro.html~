@@ -116,7 +116,7 @@
         <br/>
         <li><em>If you are feeling motivated, you can go ahead and create a simple app by following the instructions here:</em></li>
         <br/>
-        <ul>
+        <ul style="list-style-type:disc">
           <li><a href="https://developer.android.com/training/basics/firstapp/creating-project.html" target="_blank">Create Your First App</a></li>
         </ul>
       </ul>
