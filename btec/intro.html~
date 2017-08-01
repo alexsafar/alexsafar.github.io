@@ -114,7 +114,7 @@
           <li>On initial startup, follow the setup wizard for a Standard install.</li>
         </ul>
         <br/>
-        <li><em>To add: Notes on building first app (adapted from <a href="https://developer.android.com/training/basics/firstapp/creating-project.html" target="_blank">here</a>)</em></li>
+        <li><em>If you are feeling motivated, you can create your first app by following the instructions <a href="https://developer.android.com/training/basics/firstapp/creating-project.html" target="_blank">here</a>):</em></li>
       </ul>
       <br/>
       <h4>Creating an Account on Github:</h4>
@@ -159,7 +159,7 @@ NB: You will need a Google account to complete this form.</li>
       <br/>
       <h4>Playtime!</h4>
       <ul>
-        <li>From now until the end of the class, you are free to play with Python and the Jupyter notebook and see what you can make it do. I have prepared an example notebook (<a href="/btec/notebooks/lesson0.ipynb">download here</a>) which gives an overview of some features. 
+        <li>From now until the end of the class, you are free to play with Python and the Jupyter notebook and see what you can make it do. I have prepared an example notebook (<a href="/btec/notebooks/lesson0.ipynb">download here</a>) which gives an overview of some features.</li>
       <br/>
         <ul style="list-style-type:disc">
           <li><a href="/btec/notebooks/lesson0.ipynb">Download example notebook</a></li>
