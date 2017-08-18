@@ -9,6 +9,7 @@
     <meta name="description" content="Personal webpage of Scott Morgan, Mathematics PhD Student at Cardiff University. Interested in Maths, Education, Science and all things tech.">
 
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/extra.css">
   </head>
 
   <body>
@@ -72,7 +73,7 @@
           <ul>
             <!--<li>BTEC Computing Level 2: Computational Thinking | <em>Bridgend College</em> | <a href ="/btec">Course Page</a></li>
             <br/>-->
-            <li>Cambridge Technicals IT Level 2: Creating Mobile Applications for Business | <em>Bridgend College</em> | <a href ="/ocr">Course Page</a></li>
+            <li>Cambridge Technicals IT Level 2: Creating Mobile Applications for Business | <em>Bridgend College</em> | <a href ="/ocr/">Course Page</a></li>
             <br/>
             <li>Introduction to Matlab | <em>Cardiff University</em> | <a href="/ugmatlab/">Course Page</a> | <a href="https://github.com/Scott3142/ugmatlab" target="_blank">Notes</a></li>
           </ul>
@@ -95,14 +96,16 @@
     <h4>Teaching Experience</h4>
     <ul>
       <br/>
-      <li>Postgraduate Demonstrator | <em>Cardiff University (2014 - Present)</em></li>
-        <ul>
-          <br/>
-          <li><em>Led weekly classroom based tutorial sessions on a wide variety of topics including Calculus, Group Theory, Analysis, Differential Equations and Computing.</li>
-          <br/>
-          <li>Instructor in weekly drop-in sessions of Cardiff University's Maths Support service, handling a wide range of mathematics-based queries from students in many fields including Engineering, Physics, Economics, Biology and Chemistry.
-</em></li>
-        </ul>
+      <div class="more">
+        <li>Postgraduate Demonstrator | <em>Cardiff University (2014 - Present)</em></li>
+          <ul>
+            <br/>
+            <li><em>Led weekly classroom based tutorial sessions on a wide variety of topics including Calculus, Group Theory, Analysis, Differential Equations and Computing.</li>
+            <br/>
+            <li>Instructor in weekly drop-in sessions of Cardiff University's Maths Support service, handling a wide range of mathematics-based queries from students in many fields including Engineering, Physics, Economics, Biology and Chemistry.
+  </em></li>
+          </ul>
+      </div>
       <br/>
       <li>Computing Advisor | <em>Bridgend College (2016 - Present)</em></li>
         <ul>
@@ -175,15 +178,48 @@
     </p>
   </div>
 </footer>
-      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-      <script>
-      $(document).ready(function() {
-        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
-          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
-          e.preventDefault();
-        });
-      });
-      </script>
-    </main>
-  </body>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+  $(document).ready(function() {
+    // Configure/customize these variables.
+    var showChar = 100;  // How many characters are shown by default
+    var ellipsestext = "...";
+    var moretext = "Show more >";
+    var lesstext = "Show less";
+
+
+    $('.more').each(function() {
+        var content = $(this).html();
+
+        if(content.length > showChar) {
+
+            var c = content.substr(0, showChar);
+            var h = content.substr(showChar, content.length - showChar);
+
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+
+            $(this).html(html);
+        }
+
+    });
+
+    $(".morelink").click(function(){
+        if($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
+    
+  });
+</script>
+
+</main>
+</body>
 </html>
